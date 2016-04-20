@@ -1,0 +1,14 @@
+//=encoding UTF-8
+@charset 'UTF-8';
+/*
+ * Adds “quotes” on a designated div
+ * (yes, impractical)
+ */
+
+
+.quote:before {
+	content: '“';
+}
+.quote:after {
+	content: '”';
+}

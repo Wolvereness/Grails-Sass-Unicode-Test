@@ -1,0 +1,13 @@
+//=encoding UTF-8
+@charset 'UTF-8';
+@import 'styles';
+
+/*
+ * Let us have “quotes”!
+ */
+.quotes:before {
+	content: '“';
+}
+.quotes:after {
+	content: '”';
+}
